@@ -13,5 +13,5 @@ metadata:
     argocd/app-name: guestbook
 spec:
   type: service
-  owner: rhdh-qe-2
+  owner: user:default/rhdh-qe-2
   lifecycle: experimental
