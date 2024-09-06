@@ -3,15 +3,11 @@ kind: Component
 metadata:
   name: "test-rhdh-qe-2"
   annotations:
-    github.com/project-slug: janus-qe/test-rhdh-qe-2
-    backstage.io/kubernetes-id: "developer-hub"
-    backstage.io/techdocs-ref: dir:.
-    janus-idp.io/tekton-enabled: "true"
-    azure-container-registry/repository-name: "hello-world"
-    jfrog-artifactory/image-name: "hello-world"
-    quay.io/repository-slug: "rhdh/rhdh-operator-bundle"
-    argocd/app-name: guestbook
+    # Testing the Datadog Graph Import
+    datadoghq.com/site: datadoghq.com
+    datadoghq.com/graph-token: 0bf76db7d7d8b09c5510f8c4f6a1bd3260420f5b7916d080836d497b7ee65da2
 spec:
-  type: service
+  type: website
   owner: user:default/rhdh-qe-2
   lifecycle: experimental
+  
